@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="infos">
+                <div class="info">
+                    <h3>High Score:
+                       <span id="high-score">0</span>
+                    </h3>
+                </div>
+                <div class="info">
+                    <h3>Score:
+                        <span id="score">00</span>
+                    </h3>
+                </div>
+                <button class="control-btn">
+                    <div class="pause-btn">⏸️</div>
+                    <div class="resume-btn">▶️</div>
+                </button>
+                <div class="help">
+                    <button class="help-btn">ℹ️</button>
+                </div>
+                <div class="info">
+                    <h3>Time:
+                        <span id="time">00:00:00</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="board">
+                
+            </div>
+            <div class="modal">
+                <div class="start-game">
+                    <h1>Welcome to the Snake Game</h1>
+                    <button class="btn btn-start">Start Game</button>
+                </div>
+                <div class="game-over">
+                    <h1>Game Over</h1>
+                    <button class="btn btn-restart">Restart</button>
+                </div>
+                <div class="help-modal">
+                    <div class="cross-help">
+                        <button class="cross-help-btn">✗</button>
+                    </div>
+                    <h1>Help:</h1>
+                    <ul>
+                        <li>Use arrow keys to change the direction of snake</li>
+                        <li>Do not let the snake touch the walls</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
