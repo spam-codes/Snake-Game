@@ -1,22 +1,18 @@
-# Snake-Game
-Built this game using HTML CSS JavaScript, just practice my JS logics
+# Snake-Game  
+Built using **HTML**, **CSS**, and **JavaScript** to practice and improve my JS logic.
 
-Functionalities:\n
--> Start Game Button ( A pop-up at the starting)
--> Restart Game Button ( A pop-up )
--> Pause Game Button
--> Resume Game Button
--> Help Button ( Gives a pop-up)
--> High Score saving in the browser local storage
--> Proper timer working
+## Functionalities  
+- **Start Game Button** — popup appears when the game begins  
+- **Restart Game Button** — popup shown after game over  
+- **Pause Game Button**  
+- **Resume Game Button**  
+- **Help Button** — shows instructions popup  
+- **High Score** saved using browser's localStorage  
+- **Timer** with accurate time tracking  
 
-
-Live Demo:
+## Live Demo  
 https://snake-game-alpha-snowy.vercel.app/
 
+---
 
-
-
-
-//
-I'll improve it gradually
+I'll keep improving this project gradually.
